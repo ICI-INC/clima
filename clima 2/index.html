@@ -12,5 +12,17 @@
 
 	<iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=9073123&language=pt&region=BR&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius" name="CW2" scrolling="no" width="318" height="318" frameborder="0" style="border: 1px solid #10658E;border-radius: 8px"></iframe>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function(event) {
+            alterarPagina(30000);
+        });
+
+        function alterarPagina(timer) {
+            setTimeout(() => {
+                window.location.replace('https://ici-inc.github.io/IC/IA/dist/index.html');
+            }, timer);
+        }
+    </script>
+	
 </body>
 </html>
